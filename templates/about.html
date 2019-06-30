@@ -7,7 +7,44 @@
 {% block title %}About us{% endblock %}
 
 {% block content %}
-  <h1>About</h1>
+	<style>
+		
+
+		.polaroid {
+
+		  width: 30%;
+		  background-color: #cc5500;
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		  margin-bottom: 25px;
+		}
+
+		.container {
+		  text-align: center;
+		  padding: 10px 20px;
+		}
+
+	</style>
+  
   <p class="important">
-    This is the about page
+
+  <img src="/static/wrestling_6.jpg" width = 100% height = "600px">
+
+  <h1 align = "center">Coaches</h1>
+ <div class="polaroid">
+  <img src="/static/headshot1.jpg" alt="5 Terre" style="width:100%" >
+  <div class="container">
+  <p>Cinque Terre</p>
+  </div>
+</div>
+
+
+
+<div class="polaroid">
+  <img src="/static/headshot1.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container">
+  <p>Northern Lights</p>
+  </div>
+</div>
+
+
 {% endblock %}
