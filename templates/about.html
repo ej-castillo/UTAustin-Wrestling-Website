@@ -7,44 +7,127 @@
 {% block title %}About us{% endblock %}
 
 {% block content %}
-	<style>
-		
 
-		.polaroid {
 
-		  width: 30%;
-		  background-color: #cc5500;
-		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		  margin-bottom: 25px;
-		}
+<style>
 
-		.container {
-		  text-align: center;
-		  padding: 10px 20px;
-		}
+	.coaches{
+		width : 60%;
+	}
 
-	</style>
-  
-  <p class="important">
+	.officers{
+		width: 90%;
 
-  <img src="/static/wrestling_6.jpg" width = 100% height = "600px">
+	}
 
-  <h1 align = "center">Coaches</h1>
- <div class="polaroid">
-  <img src="/static/headshot1.jpg" alt="5 Terre" style="width:100%" >
-  <div class="container">
-  <p>Cinque Terre</p>
-  </div>
+	.header{
+		margin: 50px;
+	}
+
+	.shadow{
+		box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+	}
+
+
+</style>
+
+<img src="/static/wrestling_6.jpg" width = 100% height = "600px">
+<div class = "header">
+	<h1 align = "center" margin = "10px">Coaches</h1>
 </div>
 
 
+<div align = "center">
+	<div class="card-deck coaches">
+	  <div class="card shadow">
+	  	<div class = "card-header">
+	  		Head Coach
+	  	</div>
+	    <img class="card-img-top" src="/static/headshot1.jpg" alt="Card image cap">
+	    <div class="card-body" align = "left">
+	      <h3 class="card-title">First Last</h3>
+	      <hr>
+	      <p>Description of accomplishments and past history</p>
+	      <h6>Contact Info: </h6>
+	      <a href="mailto:randomemail@email.com">randomemail@email.com</a>
+	      <br>
+	      (123)456-7890    	
+	    </div>
+	  </div>
+	  <div class="card shadow">
+	  	<div class = "card-header">
+	  		Head Coach
+	  	</div>
+	    <img class="card-img-top" src="/static/headshot1.jpg" alt="Card image cap">
+	    <div class="card-body" align = "left">
+	      <h3 class="card-title">First Last</h3>
+	      <hr>
+	      <p>Description of accomplishments and past history</p>
+	      <h6>Contact Info: </h6>
+	      <a href="mailto:randomemail@email.com">randomemail@email.com</a>
+	      <br>
+	      (123)456-7890    	
+	    </div>
+	  </div>
+	</div>
+</div>	
 
-<div class="polaroid">
-  <img src="/static/headshot1.jpg" alt="Norther Lights" style="width:100%">
-  <div class="container">
-  <p>Northern Lights</p>
-  </div>
-</div>
+<div class = "header">
+	<h1 align = "center" margin = "10px">Officers</h1>
+</div>  
+
+<div align = "center">
+	<div class="card-deck officers">
+	  <div class="card shadow">
+	  	<div class = "card-header">
+	  		Head Coach
+	  	</div>
+	    <img class="card-img-top" src="/static/headshot1.jpg" alt="Card image cap">
+	    <div class="card-body" align = "left">
+	      <h3 class="card-title">First Last</h3>
+	      <hr>
+	      <p>Description of accomplishments and past history</p>
+	      <h6>Contact Info: </h6>
+	      <a href="mailto:randomemail@email.com">randomemail@email.com</a>
+	      <br>
+	      (123)456-7890    	
+	    </div>
+	  </div>
+	  <div class="card shadow">
+	  	<div class = "card-header">
+	  		Head Coach
+	  	</div>
+	    <img class="card-img-top" src="/static/headshot1.jpg" alt="Card image cap">
+	    <div class="card-body" align = "left">
+	      <h3 class="card-title">First Last</h3>
+	      <hr>
+	      <p>Description of accomplishments and past history</p>
+	      <h6>Contact Info: </h6>
+	      <a href="mailto:randomemail@email.com">randomemail@email.com</a>
+	      <br>
+	      (123)456-7890    	
+	    </div>
+	  </div>
+	  <div class="card shadow">
+	  	<div class = "card-header">
+	  		Head Coach
+	  	</div>
+	    <img class="card-img-top" src="/static/headshot1.jpg" alt="Card image cap">
+	    <div class="card-body" align = "left">
+	      <h3 class="card-title">First Last</h3>
+	      <hr>
+	      <p>Description of accomplishments and past history</p>
+	      <h6>Contact Info: </h6>
+	      <a href="mailto:randomemail@email.com">randomemail@email.com</a>
+	      <br>
+	      (123)456-7890    	
+	    </div>
+	  </div>
+	</div>
+</div>		
+
+
+
 
 
 {% endblock %}
